@@ -114,11 +114,17 @@ The waveform should agree with the truth table.
  
 ### Expected Result
 The Boolean function
-F(A,B,C,D)=Σm(0,2,5,7,8,10,13,15), which simplifies to F=B'D'+BD.
+F(A,B)=Σm(0,1,3)
+which simplifies to F=A'+B'.
 was minimized to F=B'D'+BD.
 and successfully implemented using Verilog HDL.
 
 ## OUTPUT
+
+<img width="1600" height="848" alt="DLCD" src="https://github.com/user-attachments/assets/e0af3160-0496-411d-8311-24e0b537d2c4" />
+
+
+
 
 
 
